@@ -1,0 +1,88 @@
+
+
+
+.form-container {
+    
+}
+
+.loading {
+  display: flex !important;
+  margin: 0 auto;
+  height: 45px;
+  min-width: 323px;
+}
+
+.css-x1y2mp {
+  
+  margin: 0 auto;
+  
+}
+
+.form-email {
+    display: flex;
+    flex-direction: row;
+}
+
+.emailTitle {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.emailField {
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+    flex-grow: 1;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1.17rem;
+}
+
+.buttonEmail {
+    background: #ffad1e;
+    border: none;
+    /* padding: 15px; */
+    /* margin: 10px; */
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Roboto', sans-serif !important;
+    padding-left: 10px;
+    left: 10px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 700;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Roboto', sans-serif ;
+    padding-left: 10px;
+    color: black;
+    font-weight: 400;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Roboto', sans-serif ;
+    padding-left: 10px;
+    color: black;
+    font-weight: 400;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-family: 'Roboto', sans-serif ;
+    padding-left: 10px;
+    font-size: 1.17rem;
+    color: black;
+    font-weight: 400;
+  }
+
+input:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
