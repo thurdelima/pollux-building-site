@@ -20,10 +20,10 @@ function Landing() {
                     <h1><b className="wLetter">Nosso site está em</b> <b className="yLetter">Construção</b></h1>
 
                     <span>
-                        <p className="textDisplay">Deixe seu e-mail para avisarmos quando o site ficar pronto! Enquanto isso, entre em contato pelo email: <strong>pollu-xtechnology.com</strong>, ou telefone <strong>(48) 9144-1791</strong></p>
+                        <p className="textDisplay">Deixe seu e-mail para avisarmos quando o site ficar pronto! Enquanto isso, entre em contato pelo email: <strong>getin@pollu-xtechnology.com</strong>, ou telefone <strong>(48) 9144-1791</strong></p>
                     </span>
 
-                    <EmailForm /> 
+                    {/* <EmailForm />  */}
 
                 </div>
                 <div className="logo-img">
